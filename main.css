@@ -1,0 +1,233 @@
+/*LANDING PAGE*/
+
+html {
+  margin: 0%;
+  padding: 0%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(images/backgroundBlack.jpg);
+}
+
+/* PROFILE PIC */
+
+#divProfilePic {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#divProfilePic img {
+  border-radius: 50%;
+  padding: 50px;
+}
+
+#divProfilePic h5 {
+  color: black;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(images/backgroundWhite.jpg);
+}
+
+#divProfilePic h5:hover {
+  transform: scale(1.2);
+}
+
+/* VIEW BUTTON */
+
+#divBTN {
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  display: none;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* BLOCKS */
+
+#divBlock1,
+#divBlock2,
+#divBlock3,
+#divBlock4 {
+  text-align: center;
+  border: 1px solid black;
+  margin: 2px;
+  height: 300px;
+  border-radius: 12px;
+  color: white;
+  display: none;
+}
+
+.blocks {
+  height: 300px;
+  margin-left: 10px;
+  background-image: url(images/backgroundWood2.jpg);
+}
+
+.blockTitles {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+}
+
+/*ANIMATION ON HOVER*/
+
+.blockTitles:hover {
+  transform: rotate(-1deg);
+  color: lawngreen;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+/*CALLED ON VIA JAVASCRIPT*/
+
+#divBlock1-content {
+  background-color: #40e0d0;
+  text-align: center;
+  border-radius: 12px;
+  display: none;
+}
+
+#divBlock1-content img {
+  width: 200px;
+  padding-bottom: 100px;
+}
+
+#divBlock2-content {
+  background-color: #ffd700;
+  text-align: center;
+  border-radius: 12px;
+  display: none;
+}
+
+#divBlock2-content img {
+  width: 200px;
+  padding-bottom: 100px;
+}
+
+#divBlock3-content {
+  background-color: #ff8c69;
+  text-align: center;
+  border-radius: 12px;
+  display: none;
+}
+
+#divBlock3-content h1 {
+  padding-bottom: 80px;
+}
+
+#divBlock4-content {
+  background-color: #5cb85c;
+  text-align: center;
+  border-radius: 12px;
+  display: none;
+}
+
+#divBlock4-content h1 {
+  padding-bottom: 0px;
+}
+
+#divBlock1-content h1 {
+  padding-bottom: 80px;
+}
+
+#divBlock2-content h1,
+h6 {
+  padding-bottom: 80px;
+}
+
+#divBlock3-content img {
+  width: 200px;
+  padding-bottom: 80px;
+}
+
+#divBlock4-content img {
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+.introBox {
+  width: 60%;
+  padding-bottom: 80px;
+}
+
+/*CLOSE STYLING BLOCK CONTENT*/
+
+.closeBTN {
+  padding: 5px;
+  text-align: right;
+}
+
+/*DISPLAY OF PROGRESS*/
+
+.progress {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h5 {
+  /*CLOSE BUTTON */
+
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a img {
+  height: 200px;
+  width: 300px;
+}
+
+/*JOB ROLE CARDS*/
+
+.card-header {
+  background-color: #292b2c;
+  color: white;
+}
+
+.card-footer {
+  background-color: #292b2c;
+  color: white;
+}
+
+/* CONTACT CONTAINER */
+
+.contactIcons {
+  background-color: white;
+  border-radius: 12px;
+}
+.contactIcons img {
+  /* background-color: white; */
+  /* border: 1px solid black; */
+  margin: 15px;
+  padding: 40px;
+}
+
+.contactIcons img:hover {
+  transform: rotate(1deg);
+}
+
+.contactLabels {
+  text-align: center;
+}
+
+.contactLabels a {
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.contactLabels a:hover {
+  color: yellowgreen;
+  background-color: gray;
+  border: 1px solid black;
+  text-decoration: none;
+}
