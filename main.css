@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-image: url(Images/backgroundBlack.jpg);
+  background-image: url(images/backgroundBlack.jpg);
 }
 
 /* PROFILE PIC */
@@ -30,7 +30,7 @@ body {
   width: 200px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(Images/backgroundWhite.jpg);
+  background-image: url(images/backgroundWhite.jpg);
 }
 
 #divProfilePic h5:hover {
@@ -67,7 +67,7 @@ body {
 .blocks {
   height: 300px;
   margin-left: 10px;
-  background-image: url(Images/backgroundWood2.jpg);
+  background-image: url(images/backgroundWood2.jpg);
 }
 
 .blockTitles {
