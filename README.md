@@ -17,7 +17,7 @@
 - index.html
 - main.js
 - main.css
-- images/
+- Images/
 ```
 
 ## Technologies & Tools Used
