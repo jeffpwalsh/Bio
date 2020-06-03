@@ -1,7 +1,7 @@
 # Bio / Resume
 
 - Code: L2T6
-- https://jeffpwalsh.github.io/L2T6_ECMAScript/index.html
+- https://jeffpwalsh.github.io/Bio/
 
 ## Description
 
@@ -76,3 +76,7 @@
 05/03/2020
 
 - Work Experience text updated
+
+02/06/2020
+
+- Google Analytics added to Head
