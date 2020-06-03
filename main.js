@@ -1,82 +1,107 @@
-$(function() {
+$(function () {
+  //ON LOAD
 
+  $('#divBTN').fadeIn(2000);
 
-    //ON LOAD
+  //ENTER RESUME
 
-    $('#divBTN').fadeIn(2000);
+  $('#divBTN').click(function () {
+    $(this).fadeOut(100);
+    $('#blockProfile').slideUp(1000);
+    $('.blocks').slideDown(2000);
+  });
 
+  // WORK EXPERIENCE
 
-    //ENTER RESUME
+  $('#titleWork').click(function () {
+    $('#space').hide(500);
+    $('.blocks').css({
+      height: '150px',
+      'border-bottom': '0px',
+      color: 'white',
+    });
+    $('#divBlock1').css({
+      height: '200px',
+      'border-bottom': '10px solid  #40E0D0',
+      color: ' #40E0D0',
+    });
+    $(
+      '#divBlock1-content, #divBlock2-content, #divBlock3-content, #divBlock4-content'
+    ).hide(1000);
+    $('#divBlock1-content').toggle(500);
+  });
 
-    $('#divBTN').click(function() {
+  // ABOUT
 
-        $(this).fadeOut(100);
-        $('#blockProfile').slideUp(1000);
-        $('.blocks').slideDown(2000);
+  $('#titleAbout').click(function () {
+    $('#space').hide(500);
+    $('.blocks').css({
+      height: '150px',
+      'border-bottom': '0px',
+      color: 'white',
+    });
+    $('#divBlock2').css({
+      height: '200px',
+      'border-bottom': '10px solid #ffd700',
+      color: '#ffd700',
+    });
+    $(
+      '#divBlock1-content, #divBlock2-content, #divBlock3-content, #divBlock4-content'
+    ).hide(1000);
+    $('#divBlock2-content').toggle(500);
+  });
 
-    })
+  // EDUCATION
 
+  $('#titleEducation').click(function () {
+    $('#space').hide(500);
+    $('.blocks').css({
+      height: '150px',
+      'border-bottom': '0px',
+      color: 'white',
+    });
+    $('#divBlock3').css({
+      height: '200px',
+      'border-bottom': '10px solid #ff8c69',
+      color: '#ff8c69',
+    });
+    $(
+      '#divBlock1-content, #divBlock2-content, #divBlock3-content, #divBlock4-content'
+    ).hide(1000);
+    $('#divBlock3-content').toggle(500);
+  });
 
-    // WORK EXPERIENCE
+  // CONTACT
 
-    $('#titleWork').click(function() {
+  $('#titleContact').click(function () {
+    $('#space').hide(500);
+    $('.blocks').css({
+      height: '150px',
+      'border-bottom': '0px',
+      color: 'white',
+    });
+    $('#divBlock4').css({
+      height: '200px',
+      'border-bottom': '10px solid #5cb85c',
+      color: '#5cb85c',
+    });
+    $(
+      '#divBlock1-content, #divBlock2-content, #divBlock3-content, #divBlock4-content'
+    ).hide(1000);
+    $('#divBlock4-content').toggle(500);
+  });
 
-        $('#space').hide(500);
-        $('.blocks').css({ 'height': '300px', 'border-bottom': '0px', 'color': 'white' });
-        $('#divBlock1').css({ 'height': '350px', 'border-bottom': '10px solid  #40E0D0', 'color': ' #40E0D0' });
-        $('#divBlock1-content, #divBlock2-content, #divBlock3-content, #divBlock4-content').hide(1000);
-        $('#divBlock1-content').toggle(500);
-    })
+  //CLOSE BLOCK
 
-
-
-    // ABOUT
-
-    $('#titleAbout').click(function() {
-
-        $('#space').hide(500);
-        $('.blocks').css({ 'height': '300px', 'border-bottom': '0px', 'color': 'white' });
-        $('#divBlock2').css({ 'height': '350px', 'border-bottom': '10px solid #ffd700', 'color': '#ffd700' });
-        $('#divBlock1-content, #divBlock2-content, #divBlock3-content, #divBlock4-content').hide(1000);
-        $('#divBlock2-content').toggle(500);
-    })
-
-
-
-    // EDUCATION
-
-    $('#titleEducation').click(function() {
-
-        $('#space').hide(500);
-        $('.blocks').css({ 'height': '300px', 'border-bottom': '0px', 'color': 'white' });
-        $('#divBlock3').css({ 'height': '350px', 'border-bottom': '10px solid #ff8c69', 'color': '#ff8c69' });
-        $('#divBlock1-content, #divBlock2-content, #divBlock3-content, #divBlock4-content').hide(1000);
-        $('#divBlock3-content').toggle(500);
-    })
-
-    // CONTACT
-
-    $('#titleContact').click(function() {
-
-        $('#space').hide(500);
-        $('.blocks').css({ 'height': '300px', 'border-bottom': '0px', 'color': 'white' });
-        $('#divBlock4').css({ 'height': '350px', 'border-bottom': '10px solid #5cb85c', 'color': '#5cb85c' });
-        $('#divBlock1-content, #divBlock2-content, #divBlock3-content, #divBlock4-content').hide(1000);
-        $('#divBlock4-content').toggle(500);
-    })
-
-
-
-    //CLOSE BLOCK
-
-    $('.closeBTN').click(function() {
-
-        $('#divBlock1-content, #divBlock2-content, #divBlock3-content, #divBlock4-content').slideUp(500);
-        $('#space').show(500);
-        $('.blocks').css({ 'height': '300px', 'border-bottom': '0px', 'color': 'white' });
-    })
-
-
-
-
+  $('.closeBTN').click(function () {
+    $(
+      '#divBlock1-content, #divBlock2-content, #divBlock3-content, #divBlock4-content'
+    ).slideUp(500);
+    $('#space').show(500);
+    $('.blocks').css({
+      height: '150px',
+      'border-bottom': '0px',
+      color: 'white',
+    });
+  });
 });

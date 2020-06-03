@@ -8,6 +8,7 @@ html {
 
 body {
   background-image: url(images/backgroundBlack.jpg);
+  
 }
 
 /* PROFILE PIC */
@@ -40,16 +41,27 @@ body {
 /* VIEW BUTTON */
 
 #divBTN {
-  width: 90px;
+  width: max-content;
+  background-color: #fff;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
   display: none;
   border: 1px solid black;
   text-align: center;
+  border-radius: 5px;
 }
 
 /* BLOCKS */
+
+.col.lg-3.blocks {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
+  width: max-content;
+}
+
 
 #divBlock1,
 #divBlock2,
@@ -58,7 +70,7 @@ body {
   text-align: center;
   border: 1px solid black;
   margin: 2px;
-  height: 300px;
+  height: 100px;
   border-radius: 12px;
   color: white;
   display: none;
@@ -72,8 +84,11 @@ body {
 
 .blockTitles {
   margin: 0;
-  position: absolute;
-  top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  /* position: absolute; */
+ 
 }
 
 /*ANIMATION ON HOVER*/
@@ -231,3 +246,43 @@ a img {
   border: 1px solid black;
   text-decoration: none;
 }
+
+.contact-box {
+
+display: flex;
+
+
+
+}
+
+.contact-card {
+
+  margin: 2%;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  display: block;
+}
+
+.contact-card-header {
+
+  font-size: x-large;
+ 
+
+}
+
+.contact-card-body {
+
+  font-weight: bold;
+  color: #292b2c;
+}
+
+.contact-card-footer {
+
+  background-color:#f7f7f7;
+  font-size: small;
+  border: none;
+}
+
+
