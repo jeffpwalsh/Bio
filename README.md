@@ -1,7 +1,7 @@
 # Bio / Resume
 
 - Code: L2T6
-- https://jeffpwalsh.github.io/Bio/
+- https://jeffpwalsh.github.io/bio/
 
 ## Description
 
