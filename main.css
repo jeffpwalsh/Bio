@@ -76,10 +76,17 @@ body {
 #divBlock3,
 #divBlock4 {
   text-align: center;
+<<<<<<< HEAD
   border-top: 1px solid black;
   /* margin: 2px; */
   height: 50px;
 
+=======
+  border: 1px solid black;
+  /* margin: 2px; */
+  height: 50px;
+  border-radius: 12px;
+>>>>>>> 99fb76a4118a849573b6b14988ce2bf412e2345e
   color: white;
   display: none;
 }
@@ -114,10 +121,10 @@ body {
   display: none;
 }
 
-#divBlock1-content img {
+/* #divBlock1-content img {
   width: 200px;
   padding-bottom: 100px;
-}
+} */
 
 #divBlock2-content {
   background-color: #ffd700;
@@ -126,10 +133,10 @@ body {
   display: none;
 }
 
-#divBlock2-content img {
+/* #divBlock2-content img {
   width: 200px;
   padding-bottom: 100px;
-}
+} */
 
 #divBlock3-content {
   background-color: #ff8c69;
@@ -138,9 +145,9 @@ body {
   display: none;
 }
 
-#divBlock3-content h1 {
+/* #divBlock3-content h1 {
   padding-bottom: 80px;
-}
+} */
 
 #divBlock4-content {
   background-color: #5cb85c;
@@ -254,7 +261,10 @@ a img {
 .contact-box {
   display: flex;
   width: 100%;
+<<<<<<< HEAD
   padding-bottom: 5%;
+=======
+>>>>>>> 99fb76a4118a849573b6b14988ce2bf412e2345e
 }
 
 .contact-card {
