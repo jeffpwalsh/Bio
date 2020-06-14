@@ -8,7 +8,8 @@ html {
 
 body {
   background-image: url(images/backgroundBlack.jpg);
-  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* PROFILE PIC */
@@ -55,13 +56,14 @@ body {
 /* BLOCKS */
 
 .col.lg-3.blocks {
-
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1%;
-  width: max-content;
+  width: 25%;
 }
 
+.container {
+  width: 100%;
+}
 
 #divBlock1,
 #divBlock2,
@@ -69,27 +71,26 @@ body {
 #divBlock4 {
   text-align: center;
   border: 1px solid black;
-  margin: 2px;
-  height: 100px;
+  /* margin: 2px; */
+  height: 50px;
   border-radius: 12px;
   color: white;
   display: none;
 }
 
 .blocks {
-  height: 300px;
-  margin-left: 10px;
-  background-image: url(images/backgroundWood2.jpg);
+  height: 100px;
 }
 
-.blockTitles {
+/* .blockTitles {
   margin: 0;
   margin-left: auto;
   margin-right: auto;
   width: max-content;
-  /* position: absolute; */
+  position: absolute;
  
-}
+ 
+} */
 
 /*ANIMATION ON HOVER*/
 
@@ -109,10 +110,10 @@ body {
   display: none;
 }
 
-#divBlock1-content img {
+/* #divBlock1-content img {
   width: 200px;
   padding-bottom: 100px;
-}
+} */
 
 #divBlock2-content {
   background-color: #ffd700;
@@ -121,10 +122,10 @@ body {
   display: none;
 }
 
-#divBlock2-content img {
+/* #divBlock2-content img {
   width: 200px;
   padding-bottom: 100px;
-}
+} */
 
 #divBlock3-content {
   background-color: #ff8c69;
@@ -133,9 +134,9 @@ body {
   display: none;
 }
 
-#divBlock3-content h1 {
+/* #divBlock3-content h1 {
   padding-bottom: 80px;
-}
+} */
 
 #divBlock4-content {
   background-color: #5cb85c;
@@ -175,8 +176,7 @@ h6 {
 /*CLOSE STYLING BLOCK CONTENT*/
 
 .closeBTN {
-  padding: 5px;
-  text-align: right;
+  padding: 10px;
 }
 
 /*DISPLAY OF PROGRESS*/
@@ -248,41 +248,31 @@ a img {
 }
 
 .contact-box {
-
-display: flex;
-
-
-
+  display: flex;
+  width: 100%;
 }
 
 .contact-card {
-
-  margin: 2%;
-  width: 300px;
   margin-left: auto;
   margin-right: auto;
   border: none;
   display: block;
+  width: 20%;
 }
 
 .contact-card-header {
-
-  font-size: x-large;
- 
-
+  font-size: 1vw;
 }
 
 .contact-card-body {
-
   font-weight: bold;
   color: #292b2c;
+  font-size: 1vw;
 }
 
 .contact-card-footer {
-
-  background-color:#f7f7f7;
-  font-size: small;
+  background-color: #f7f7f7;
+  font-size: 1vw;
   border: none;
+  word-wrap: break-word;
 }
-
-

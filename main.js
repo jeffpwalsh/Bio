@@ -16,12 +16,12 @@ $(function () {
   $('#titleWork').click(function () {
     $('#space').hide(500);
     $('.blocks').css({
-      height: '150px',
+      height: '100px',
       'border-bottom': '0px',
       color: 'white',
     });
     $('#divBlock1').css({
-      height: '200px',
+      height: '100px',
       'border-bottom': '10px solid  #40E0D0',
       color: ' #40E0D0',
     });
@@ -36,12 +36,12 @@ $(function () {
   $('#titleAbout').click(function () {
     $('#space').hide(500);
     $('.blocks').css({
-      height: '150px',
+      height: '100px',
       'border-bottom': '0px',
       color: 'white',
     });
     $('#divBlock2').css({
-      height: '200px',
+      height: '100px',
       'border-bottom': '10px solid #ffd700',
       color: '#ffd700',
     });
@@ -56,12 +56,12 @@ $(function () {
   $('#titleEducation').click(function () {
     $('#space').hide(500);
     $('.blocks').css({
-      height: '150px',
+      height: '100px',
       'border-bottom': '0px',
       color: 'white',
     });
     $('#divBlock3').css({
-      height: '200px',
+      height: '100px',
       'border-bottom': '10px solid #ff8c69',
       color: '#ff8c69',
     });
@@ -76,12 +76,12 @@ $(function () {
   $('#titleContact').click(function () {
     $('#space').hide(500);
     $('.blocks').css({
-      height: '150px',
+      height: '100px',
       'border-bottom': '0px',
       color: 'white',
     });
     $('#divBlock4').css({
-      height: '200px',
+      height: '100px',
       'border-bottom': '10px solid #5cb85c',
       color: '#5cb85c',
     });
@@ -99,7 +99,7 @@ $(function () {
     ).slideUp(500);
     $('#space').show(500);
     $('.blocks').css({
-      height: '150px',
+      height: '100px',
       'border-bottom': '0px',
       color: 'white',
     });
