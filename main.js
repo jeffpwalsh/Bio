@@ -9,6 +9,7 @@ $(function () {
     $(this).fadeOut(100);
     $('#blockProfile').slideUp(1000);
     $('.blocks').slideDown(2000);
+    $('#space p').fadeOut(200);
   });
 
   // WORK EXPERIENCE

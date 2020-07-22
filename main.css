@@ -1,8 +1,8 @@
 /*LANDING PAGE*/
 
 html {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
 }
 
@@ -59,6 +59,15 @@ body {
   padding: 5px;
 }
 
+#space p {
+
+  font-size: 12px;
+}
+
+div#space {
+
+  text-align: center;
+}
 /* BLOCKS */
 
 .col.lg-3.blocks {
@@ -266,18 +275,18 @@ a img {
 }
 
 .contact-card-header {
-  font-size: 1vw;
+  font-size: 16px;
 }
 
 .contact-card-body {
   font-weight: bold;
   color: #292b2c;
-  font-size: 1vw;
+  font-size: 12px;
 }
 
 .contact-card-footer {
   background-color: #f7f7f7;
-  font-size: 1vw;
+  font-size: 16x;
   border: none;
   word-wrap: break-word;
 }
