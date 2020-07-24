@@ -85,7 +85,6 @@ $(function () {
       height: '100px',
       'border-bottom': '10px solid #5cb85c',
       color: '#5cb85c',
-
     });
     $(
       '#divBlock1-content, #divBlock2-content, #divBlock3-content, #divBlock4-content'
