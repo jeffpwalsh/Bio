@@ -24,6 +24,7 @@ $(function () {
     $('#divBlock1').css({
       height: '100px',
       'border-bottom': '10px solid  #40E0D0',
+      'border-bottom-left-radius': '50%',
       color: ' #40E0D0',
     });
     $(
@@ -44,6 +45,7 @@ $(function () {
     $('#divBlock2').css({
       height: '100px',
       'border-bottom': '10px solid #ffd700',
+      'border-bottom-left-radius': '50%',
       color: '#ffd700',
     });
     $(
@@ -64,6 +66,7 @@ $(function () {
     $('#divBlock3').css({
       height: '100px',
       'border-bottom': '10px solid #ff8c69',
+      'border-bottom-left-radius': '50%',
       color: '#ff8c69',
     });
     $(
@@ -84,6 +87,7 @@ $(function () {
     $('#divBlock4').css({
       height: '100px',
       'border-bottom': '10px solid #5cb85c',
+      'border-bottom-left-radius': '50%',
       color: '#5cb85c',
     });
     $(
